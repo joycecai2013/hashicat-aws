@@ -1,4 +1,4 @@
-#!/bin/bash
+/#!/bin/bash
 # Script to deploy a very simple web application.
 # The web app has a customizable image and some text.
 
@@ -11,7 +11,7 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Meow World!</h2></center>
-  Welcome to ${PREFIX}'s app. Replace this text with your own.
+  Welcome to ${PREFIX}'s app. Repla:qce this text with your own.
   <!-- END -->
 
   </div>
